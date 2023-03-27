@@ -5,7 +5,7 @@ export class EthClient extends Client {
         return this.callModuleReturn("ready");
     }
     async method(method, params) {
-        return this.callModuleReturn("method", params);
+        return this.callModuleReturn(method, params);
     }
 }
 export const createClient = factory(EthClient, RPC_MODULE);
