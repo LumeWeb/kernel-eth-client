@@ -7,7 +7,7 @@ export class EthClient extends Client {
     return this.callModuleReturn("ready");
   }
   public async method(method: string, params: any) {
-    return this.callModuleReturn("method", params);
+    return this.callModuleReturn(method, params);
   }
 }
 
