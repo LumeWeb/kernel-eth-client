@@ -1,6 +1,6 @@
 import { Client, factory } from "@lumeweb/libkernel-universal";
 
-const RPC_MODULE = "AADUenOoil21Anizkz9cRUPvAxZY9gFFSEdK9S0ZrGbvhA";
+const RPC_MODULE = "AAARj-MgelPrjTaSmJKIVJOjrbegwtY34e_cF9vN_8-KGg";
 
 export class EthClient extends Client {
   public async ready() {
