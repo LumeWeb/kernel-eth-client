@@ -1,4 +1,4 @@
-import { Client, factory } from "@lumeweb/libkernel-universal";
+import { Client, factory } from "@lumeweb/libkernel/module";
 
 const RPC_MODULE = "AABzXaYbh-KuCx3ZUUz-oeeMQsZb3kR1BbYSQ-8LSsBmAA";
 
