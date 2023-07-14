@@ -1,6 +1,6 @@
 import { Client, factory } from "@lumeweb/libkernel/module";
 
-const RPC_MODULE = "AABzXaYbh-KuCx3ZUUz-oeeMQsZb3kR1BbYSQ-8LSsBmAA";
+const MODULE = "zduKW55byJGtigF9TcVmrBJzGidXUHBifAo5Yxb211fzw86W1tbG9WmKqh";
 
 export class EthClient extends Client {
   public async ready() {
@@ -11,4 +11,4 @@ export class EthClient extends Client {
   }
 }
 
-export const createClient = factory<EthClient>(EthClient, RPC_MODULE);
+export const createClient = factory<EthClient>(EthClient, MODULE);
