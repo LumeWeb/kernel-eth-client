@@ -1,3 +1,10 @@
+# [0.1.0-develop.1](https://git.lumeweb.com/LumeWeb/kernel-eth-client/compare/v0.0.2-develop.3...v0.1.0-develop.1) (2023-07-19)
+
+
+### Features
+
+* add register for network registry ([2a7eb58](https://git.lumeweb.com/LumeWeb/kernel-eth-client/commit/2a7eb58354839bfdea96504f00b17f0841dae869))
+
 ## [0.0.2-develop.3](https://git.lumeweb.com/LumeWeb/kernel-eth-client/compare/v0.0.2-develop.2...v0.0.2-develop.3) (2023-07-15)
 
 ## [0.0.2-develop.2](https://git.lumeweb.com/LumeWeb/kernel-eth-client/compare/v0.0.2-develop.1...v0.0.2-develop.2) (2023-07-15)
