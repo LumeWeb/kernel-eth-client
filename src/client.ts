@@ -9,9 +9,10 @@ export class EthClient extends Client {
   public async method(method: string, params: any) {
     return this.callModuleReturn(method, params);
   }
-    public async register() {
-        return this.callModuleReturn("register");
-    }
+
+  public async register() {
+    return this.callModuleReturn("register");
+  }
 }
 
 export const createClient = factory<EthClient>(EthClient, MODULE);
