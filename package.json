@@ -9,7 +9,6 @@
     },
     "devDependencies": {
         "@lumeweb/node-library-preset": "^0.2.7",
-        "ethers": "^6.6.3",
         "presetter": "*"
     },
     "readme": "ERROR: No README data found!",
@@ -19,7 +18,8 @@
         "semantic-release": "semantic-release"
     },
     "dependencies": {
-        "@lumeweb/libkernel": "^0.1.0-develop.20"
+        "@lumeweb/libkernel": "^0.1.0-develop.20",
+        "ethers": "^6.6.3"
     },
     "files": [
         "lib"
