@@ -1,6 +1,6 @@
 import { Client, factory } from "@lumeweb/libkernel/module";
 
-const MODULE = "zduKiDAoxW2cP44QJRSWVX854WaZFNwbAQACGKd7jzHMzm3mUEYYi4hNSK";
+const MODULE = "zduMmCWp9WHvGxJKgk6CN3xhBM7jTQJeoigQSWTkspWkVTuU7z1ZCj7PVZ";
 
 export class EthClient extends Client {
   public async ready() {
