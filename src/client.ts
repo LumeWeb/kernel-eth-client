@@ -1,5 +1,5 @@
 import { factory, NetworkClient } from "@lumeweb/libkernel/module";
-const MODULE = "zdiQhmSanFJDebnRrMnrVrkqrW2rRpzoDzsc7Mn1gvwpavEKeyisFw6c1m";
+const MODULE = "zrjM21LqarPeeRGM9WPQGncA4cLFwzBqgq6kvio7S7HtwrT";
 
 export class EthClient extends NetworkClient {
   public async method(method: string, params: any) {
